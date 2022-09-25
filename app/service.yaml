@@ -4,6 +4,7 @@ metadata:
   labels:
     app: app
   name: app
+  namespace: dev
 spec:
   type: LoadBalancer
   ports:
